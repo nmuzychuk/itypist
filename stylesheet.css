@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#key-history {
+    height: 50px;
+}
+
+#keyboard-layout {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 54px;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 25px;
+    background-color: white;
+    box-shadow: 0 10px darkgray;
+    border: none;
+    border-radius: 15px;
+}
+
+button.pressed {
+    background-color: skyblue;
+    box-shadow: 0 6px gray;
+    transform: translateY(4px);
+}
