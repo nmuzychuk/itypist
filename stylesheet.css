@@ -20,8 +20,7 @@ button {
     width: 65px;
     height: 65px;
     font-size: 24px;
-    text-align: left;
-    padding-bottom: 25px;
+    text-align: center;
     background-color: white;
     box-shadow: 0 10px darkgray;
     border: none;
